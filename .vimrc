@@ -23,6 +23,7 @@ set number
 
 " Remap jj to escape in insert mode. Easier than hitting ESC key
 inoremap jj <Esc>
+inoremap fd <Esc>
 
 nnoremap JJJJ <Nop>
 
