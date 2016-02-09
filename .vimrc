@@ -12,8 +12,12 @@ set wrap
 " Auto indentation
 set ai
 
+set expandtab
 set ts=4
 set sw=4
+
+" Set shift-tab to four backspaces
+" set <s-tab> 
 
 " Enable mouse support
 set mouse=a
@@ -31,7 +35,10 @@ nnoremap JJJJ <Nop>
 set hlsearch
 
 " Set colorscheme
-"colorscheme metacosm
+colorscheme inkpot
+
+" cd to dir file is in
+set autochdir
 
 " Status line gnarliness
 set laststatus=2
