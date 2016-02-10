@@ -17,7 +17,7 @@ set ts=4
 set sw=4
 
 " Set shift-tab to four backspaces
-" set <s-tab> 
+imap <s-tab> <backspace><backspace><backspace><backspace>
 
 " Enable mouse support
 set mouse=a
